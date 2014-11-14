@@ -23,7 +23,7 @@ $( document ).ready(function() {
   var baseIcon = L.Icon.extend({
     //iconUrl: '../img/taxi.png',
     options:{
-	    shadowUrl: '/../img/shadow.png',
+	    shadowUrl: 'img/shadow.png',
 
 	    iconSize:     [32, 37], // size of the icon
 	    shadowSize:   [51, 37], // size of the shadow
@@ -33,8 +33,8 @@ $( document ).ready(function() {
 		}
 	});
 
-	var tlcIcon = new baseIcon({iconUrl: '/../img/taxi.png'});
-	var dotIcon = new baseIcon({iconUrl: '/../img/dot.png'});
+	var tlcIcon = new baseIcon({iconUrl: 'img/taxi.png'});
+	var dotIcon = new baseIcon({iconUrl: 'img/dot.png'});
 	var parksIcon = new baseIcon({iconUrl: '/../img/parks.png'});
 	var buildingsIcon = new baseIcon({iconUrl: '../img/buildings.png'});
 	var nypdIcon = new baseIcon({iconUrl: '../img/nypd.png'});
