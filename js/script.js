@@ -66,8 +66,11 @@ $( document ).ready(function() {
 
 
 		function cleanDate(input) {
+			console.log("A" + input);
 			if (input < 10) {
 				return '0' + input;
+			} else {
+				return input;
 			}
 		}
 
